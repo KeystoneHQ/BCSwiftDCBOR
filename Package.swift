@@ -1,12 +1,12 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.6
 import PackageDescription
 
 let package = Package(
     name: "DCBOR",
     platforms: [
         .macOS(.v11),
-        .iOS(.v14),
-        .macCatalyst(.v14)
+        .iOS(.v13),
+        .macCatalyst(.v13)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/wolfmcnally/swift-collections", .upToNextMajor(from: "1.1.0")),
         .package(url: "https://github.com/wolfmcnally/WolfBase.git", .upToNextMajor(from: "5.0.0")),
-        .package(url: "https://github.com/blockchaincommons/BCSwiftFloat16.git", .upToNextMajor(from: "0.1.1")),
+        .package(url: "https://github.com/KeystoneHQ/BCSwiftFloat16.git", .upToNextMajor(from: "0.3.0")),
     ],
     targets: [
         .target(

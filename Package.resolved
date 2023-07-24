@@ -3,10 +3,10 @@
     {
       "identity" : "bcswiftfloat16",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/blockchaincommons/BCSwiftFloat16.git",
+      "location" : "https://github.com/KeystoneHQ/BCSwiftFloat16.git",
       "state" : {
-        "revision" : "b1aefcdddbef4581579af9e35225c70cf6df107e",
-        "version" : "0.2.0"
+        "revision" : "5781bf741d202b69ffaa98c5e84e1229bd99e694",
+        "version" : "0.3.0"
       }
     },
     {
