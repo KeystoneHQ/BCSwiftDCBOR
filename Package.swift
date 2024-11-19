@@ -15,6 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.1.0")),
+        .package(url: "https://github.com/soralit/swift-collections-sorted-collections", .upToNextMajor(from: "1.2.2")),
         .package(url: "https://github.com/wolfmcnally/WolfBase.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/KeystoneHQ/BCSwiftFloat16.git", .upToNextMajor(from: "0.3.0")),
     ],
@@ -24,6 +25,7 @@ let package = Package(
             dependencies: [
                 .product(name: "BCFloat16", package: "BCSwiftFloat16"),
                 .product(name: "Collections", package: "swift-collections"),
+                .product(name: "SortedCollections", package: "swift-collections-sorted-collections"),
             ]),
         .testTarget(
             name: "DCBORTests",
